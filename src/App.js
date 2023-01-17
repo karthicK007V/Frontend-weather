@@ -13,8 +13,8 @@ const [current,setcurrent]=useState();
 const [forecast,setforcast]=useState();
 const [location,setlocation]=useState()
 
-const AutocompleteUrl="http://api.weatherapi.com/v1/search.json?key=770eaf60c2784b25b4d173847231301&q="
-const weatherurl=(city)=>`http://api.weatherapi.com/v1/forecast.json?key=770eaf60c2784b25b4d173847231301&q=${city}&days=7&aqi=no&alerts=no`
+const AutocompleteUrl="https://api.weatherapi.com/v1/search.json?key=770eaf60c2784b25b4d173847231301&q="
+const weatherurl=(city)=>`https://api.weatherapi.com/v1/forecast.json?key=770eaf60c2784b25b4d173847231301&q=${city}&days=7&aqi=no&alerts=no`
 
 useEffect(()=>{
 
