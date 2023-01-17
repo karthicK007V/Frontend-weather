@@ -1,0 +1,24 @@
+.current{
+    background-color: rgb(203, 215, 204);
+    margin-top: 5vh;
+    height:30vh;
+    width: 70vw;
+    overflow: auto;
+   
+  
+}
+.deg::after{
+    
+    content: "\00b0"
+}
+.city{
+    font-weight: 50px;
+    text-align: center;
+    font-weight: 900px;
+}
+.bodycurrent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}

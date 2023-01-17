@@ -1,0 +1,19 @@
+.forecaste{
+    width: 80vw;
+    margin-top: 5vh;
+    height:40vh;
+    background-color: rgb(203, 215, 204);
+    text-align: center;
+  
+  
+   
+
+}
+.hours{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.progress{
+    width: 70%;
+}

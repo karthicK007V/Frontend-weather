@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
+*{
+  /* background-image: url('../public/image/pexels-tahir-shaw-186980.jpg'); */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: hsl(220, 86%, 45%); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  background-image: url("../public/image/pexels-tahir-shaw-186980.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  object-fit: contain;
+  background-size: 100% 100%;
+  
   font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-y: auto;
+ 
+}
+.wrap{
+  height: 30vh;
+  overflow-y: scroll;
+  width:50vw;
+ 
+  border: 2px solid black;
+
+ 
+  
+ 
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.suggestion:hover{
+  color: blue;
+ cursor: pointer;
+  
+}
+.suggestion{
+  width:49vw;
+  height: 5vh;
+  color:black;
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: 200;
+  padding: 2vh;
+
+
+   
+}
+.textbox{
+  height: 7vh;
+  width:50vw;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 5vh;
+  border: 2px solid black;
+
+  
+}
+.header{
+  height: 10vh;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  position: sticky;
+  top:0;
+  background-color: chartreuse;
+  border-bottom: 2px solid red;
+  background-image: url("https://image.shutterstock.com/image-photo/weather-forecast-background-climate-change-260nw-1124541077.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  object-fit: contain;
+  text-shadow: 2px 2px red;
+  background-size: 100% 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
